@@ -49,7 +49,7 @@ const router = createBrowserRouter([
   ]);
 function App() {
   return (
-    <div className="app">
+    <div className="m-0 box-border">
       <div className="container">
         <RouterProvider router={router} />
       </div>
