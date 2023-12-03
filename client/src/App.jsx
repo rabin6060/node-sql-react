@@ -34,23 +34,24 @@ const router = createBrowserRouter([
           path:'/post/:id',
           element:<Add/>
         },
-        {
-          path:"/login",
-          element:<Login/>
-        },
-        {
-          path:"/register",
-          element:<Register/>
-        }
+        
 
       ]
     },
+    {
+      path:"/login",
+      element:<Login/>
+    },
+    {
+      path:"/register",
+      element:<Register/>
+    }
     
   ]);
 function App() {
   return (
-    <div className="m-0 box-border">
-      <div className="container">
+    <div className="app">
+      <div className="">
         <RouterProvider router={router} />
       </div>
     </div>
